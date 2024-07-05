@@ -1,0 +1,38 @@
+.menu-type-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 30px;
+  }
+  
+  .menu-type-button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    background-color: var(--color-beige);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .menu-type-button:hover {
+    background-color: var(--color-light-brown);
+  }
+  
+  .menu-type-button img {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 10px;
+    transition: transform 0.3s ease;
+  }
+  
+  .menu-type-button:hover img {
+    transform: scale(1.1);
+  }
+  
+  .menu-type-button.selected {
+    transform: scale(1.1);
+  }
+  
